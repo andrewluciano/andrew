@@ -1,0 +1,18 @@
+.banner{
+	width:823px;
+	height:232px;
+	position:relative;
+	margin:0px auto;
+	margin-top:20px;
+	background-image:url('../imagens/banner/background-banner.png');
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.banner ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:7px;
+	left:8px;
+}

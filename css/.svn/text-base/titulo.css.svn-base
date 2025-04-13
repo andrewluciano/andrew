@@ -1,0 +1,61 @@
+h2{
+	background-repeat:no-repeat;
+	background-position:left;
+	text-indent:-9000px;	
+	width:100%;
+	margin:0px auto;
+	padding:0px;
+	position:relative;
+	margin-top:25px;
+	margin-bottom:30px;	
+	float:left;
+}
+h2.drewdesign{
+	background-image:url('../imagens/titulos/drew-design.gif');
+	color:#6c7b21;
+	height:16px;
+}
+
+h2.listatags{
+	background-image:url('../imagens/titulos/lista-tags.gif');
+	color:#6c7b21;
+	height:16px;
+}
+h2.contato{
+	background-image:url('../imagens/titulos/contato-com-a-drew-design.gif');
+	color:#6c7b21;
+	height:16px;
+}
+h2.servicos{
+	background-image:url('../imagens/titulos/servicos-desenvolvidos-drew-design.gif');
+	color:#6c7b21;
+	height:16px;
+}
+h2.portfolio{
+	background-image:url('../imagens/titulos/portfolio-da-drew-design.gif');
+	color:#6c7b21;
+	height:16px;
+}
+h2.parceiros{
+	background-image:url('../imagens/titulos/parceiros-da-drew-design.gif');
+	color:#6c7b21;
+	height:16px;
+}
+
+
+
+h1{
+	font-size:14px;
+	position:relative;
+	margin:25px 0px 10px 0px;
+	font-style:italic;
+	text-transform:uppercase;
+		
+}
+h1 a{
+	color:#6c7b21;
+	text-decoration:none;	
+}
+h1 a:hover{
+	text-decoration:underline;	
+}

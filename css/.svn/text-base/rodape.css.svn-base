@@ -1,0 +1,60 @@
+.area-rodape{
+	background-image:url('../imagens/background/background-rodape.jpg');
+	background-position:left top;
+	background-repeat:repeat-x;
+	height:174px;
+	position:relative;
+	margin-top:20px;
+}
+.area-rodape .rodape{
+	width:840px;
+	height:115px;
+	margin:0px auto;
+}
+
+.area-rodape .rodape .drewdesign{
+	float:left;
+	width:160px;
+	height:auto;
+	color:#6c7b21;
+	font-size:12px;
+	position:relative;
+	top:35px;
+	left:10px;
+}
+.area-rodape .rodape .drewdesign a{
+	color:#6c7b21;
+	text-decoration:none;
+}
+.area-rodape .rodape div{
+	float:left;
+}
+.area-rodape .rodape h3{
+	color:#6c7b21;	
+	float:left;
+	width:50px;
+	text-align:right;
+	font-size:11px;
+	position:relative;
+	margin:20px 10px 0px 0px;
+}
+.area-rodape .rodape ul{
+	float:left;
+	list-style:none;
+	padding:0px;
+	margin:20px 0px 0px 0px;
+	height:90px;
+	position:relative;
+}
+
+.area-rodape .rodape ul li{
+	height:20px;
+	font-size:11px;
+}
+.area-rodape .rodape ul li a{
+	color:#6c7b21;
+	text-decoration:none;
+}
+.area-rodape .rodape a:hover{
+	color:#fff;
+}

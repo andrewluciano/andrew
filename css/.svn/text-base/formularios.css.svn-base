@@ -1,0 +1,48 @@
+/* inicio area de formulario */
+form{
+	padding:0px;
+	margin:0px;
+}
+.area-formulario {
+	border:none;
+	padding:3px;
+	text-align:center;
+	position:relative;
+	height:auto;
+	float:left;
+	margin:0px;
+	margin-left:20px;
+}
+.area-formulario span{
+	float:left;
+	top:5px;
+}
+.area-formulario label{
+	float:left;
+	width:20%;
+	padding:3px;
+	text-align:right;
+	font-weight:bold;
+	color:#636363;
+	position:relative;
+	margin-right:10px;
+}
+.area-formulario .textbox{
+	border:1px solid #999999;
+	font:11px Tahoma;
+	padding:3px;
+	float:left;
+	width:30%;
+	position:relative;
+}
+.area-formulario button{
+	border:1px solid #999999;
+	font:11px Tahoma;
+	padding:5px;
+	width:auto;
+	margin:2px;
+	margin-top:20px;
+	margin-bottom:20px;
+
+
+}

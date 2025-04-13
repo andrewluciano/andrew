@@ -1,0 +1,62 @@
+.pagina404{
+
+    color:#132434;
+
+}
+.pagina404 h2{
+    
+    line-height: 6rem;
+    margin:0;
+    padding:0;
+    font-size:6rem;
+    font-family: "Pixelify Sans", sans-serif;
+    @media (max-width:700px){
+        text-align: center;
+    }
+}
+.pagina404 h4{
+    font-size:1.25rem;
+    margin:0 0 15px 0;
+    padding:0;
+    @media (max-width:700px){
+        text-align: center;
+    }
+}
+.pagina404 p{
+    display: flex;
+    margin:5px 0px;  
+    
+    align-items: center;
+    gap:5px;
+    color:#132434;
+    @media (max-width:700px){
+        text-align: center;
+    }
+}
+.pagina404 p img{
+    width:20px;
+    fill:#132434;
+    color:#132434;
+}
+
+.pagina404 .AreaTexto{
+    padding-bottom:1rem;
+    @media (max-width:700px){
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  .pagina404 .AreaTexto h1{
+    @media (max-width:700px){
+width:200px;
+    }
+  }
+  .pagina404 .AreaTexto a{
+
+    text-decoration: underline;
+    }
+  

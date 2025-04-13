@@ -1,0 +1,52 @@
+.menu ul{
+	margin:0px auto;
+	padding:0px;
+	width:auto;
+	height:70px;
+	list-style:none;
+	position:relative;
+	top:56px;
+	float:right;
+}
+.menu ul li{
+	float:left;
+	height:70px;
+
+	position:relative;
+	text-align:center;
+}
+.menu ul li a{
+	display:block;
+	position:relative;
+	text-indent:-9000px;
+	background-repeat:no-repeat;
+	background-position:bottom;
+	height:70px;
+}
+.menu ul li a:hover{
+	background-position:top;
+}
+.menu ul li a.ativo{
+	background-position:top;
+}
+.menu ul li a.pagina-inicial{
+	background-image:url('../imagens/menu/pagina-inicial.png');
+	width:128px;		
+}
+.menu ul li a.portfolio{
+	background-image:url('../imagens/menu/portfolio.png');
+	width:110px;	
+}
+
+.menu ul li a.servicos{
+	background-image:url('../imagens/menu/servicos.png');
+	width:110px;		
+}
+.menu ul li a.parceiros{
+	background-image:url('../imagens/menu/parceiros.png');
+	width:110px;			
+}
+.menu ul li a.contato{
+	background-image:url('../imagens/menu/contato.png');
+	width:110px;			
+}
