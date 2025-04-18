@@ -837,3 +837,11 @@ p {
   height: 60px;
   position: relative;
 }
+
+
+.paddingTop35{
+  display: flex;
+  box-sizing: border-box;
+  padding-top:35px !important;
+  border-radius:0;
+}
