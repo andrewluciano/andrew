@@ -785,6 +785,44 @@ p {
 
 
 
+.areaLinks{
+  display: flex;
+  flex-direction: row;
+    align-items:flex-start;
+}
+.areaLinks a{
+  display: flex;
+  gap:10px;
+  justify-content:center;
+  align-items:center;
+  font-size:0.85rem;
+  transition: all 0.2s ease-in-out;
+
+}
+.areaLinks a span{
+  display: none;
+}
+.areaLinks a:hover{
+  	
+  color:#110f10;
+	animation: gradient 15s ease infinite;
+
+}
+.areaLinks a svg{
+  transition: all 0.2s ease-in-out;
+}
+.areaLinks a:hover svg{
+  
+  opacity: 1;
+  fill:#ed6d0f;
+}
+.areaLinks a svg{
+  width:30px;
+  height:30px;
+}
+
+
+
 .AreaRodape {
   position: relative;
   box-sizing: border-box;
@@ -813,11 +851,25 @@ p {
   gap: 5px;
 }
 .AreaRodape .areaLinks a {
-  filter: grayscale(1);
+  filter: grayscale(1) !important;
   width: 25px;
+  transition: all 0.2s ease-in-out;
+
 }
+.AreaRodape .areaLinks svg {
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+
+}
+
 .AreaRodape .areaLinks a:hover {
-  filter: grayscale(0);
+  filter: grayscale(0) !important;
+}
+
+
+.AreaRodape .areaLinks a:hover svg{
+  opacity: 1;
+  fill:#ed6d0f;
 }
 .AreaRodape::before {
   position: absolute;
@@ -838,10 +890,3 @@ p {
   position: relative;
 }
 
-
-.paddingTop35{
-  display: flex;
-  box-sizing: border-box;
-  padding-top:35px !important;
-  border-radius:0;
-}
