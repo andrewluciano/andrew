@@ -837,3 +837,32 @@ p {
   height: 60px;
   position: relative;
 }
+
+
+.areaLinks{
+  border:'1px solid red';
+  display: flex;
+  flex-direction: row;
+    align-items:flex-start;
+}
+.areaLinks a{
+  display: flex;
+  gap:10px;
+  justify-content:center;
+  align-items:center;
+  font-size:0.85rem;
+}
+.areaLinks a span{
+  display: none;
+}
+.areaLinks a:hover{
+  	/* color: linear-gradient(-45deg, #cf0fed, #13adc1, #6a0863, #ed6d0f); */
+	background-size: 400% 400%;
+  color:#110f10;
+	animation: gradient 15s ease infinite;
+
+}
+.areaLinks a svg{
+  width:30px;
+  height:30px;
+}
