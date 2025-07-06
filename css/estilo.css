@@ -859,7 +859,7 @@ p {
 .AreaRodape .areaLinks svg {
   opacity: 0.6;
   transition: all 0.2s ease-in-out;
-
+  max-height:40px;
 }
 
 .AreaRodape .areaLinks a:hover {
