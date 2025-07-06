@@ -631,7 +631,25 @@ p {
   .euMobile {
     display: block;
     box-sizing: border-box;
+    max-width: auto !important;
+    width: auto !important;
+    
     margin-bottom:30px !important;
+    height:200px !important;
+    background-image:url('../imagens/eu-3-mobile.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .euMobile img{
+    border-radius: 0;
+    display: none;
+
+    max-width: auto !important;
+    width: auto !important;
+    height:200px !important;
+    
+
   }
 }
 .AreaTexto {
