@@ -618,6 +618,7 @@ p {
   align-items: center;
   max-width: 40%;
   width: 40%;
+  
 }
 .imgEu img {
   width: 70%;
@@ -675,7 +676,7 @@ p {
   }
   .AreaTexto h1 {
     order: 1;
-    margin: 0px;
+    margin: 0px auto;
   }
   .AreaTexto .euMobile {
     display: block !important;
