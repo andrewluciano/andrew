@@ -729,60 +729,103 @@ p {
 }
 .ProgressBar .bar {
   position: relative;
-  width: 0%;
   height: 5px;
   background-color: #ed6d0f;
-  transition: all 0.2s ease-in-out;
+  /* transition: all 0.2s ease-in-out; */
   border-radius: 0 2px 2px 0;
+
+  width: 0%;
 }
 .ProgressBar .bar._20 {
-  width: 20%;
+  --width: 20%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._25 {
-  width: 25%;
+  --width: 25%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._30 {
-  width: 30%;
+  --width: 30%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._40 {
-  width: 40%;
+  --width: 40%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._45 {
-  width: 45%;
+  --width: 45%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._50 {
-  width: 50%;
+  --width: 50%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._55 {
-  width: 55%;
+  --width: 55%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._60 {
-  width: 60%;
+  --width: 60%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._65 {
-  width: 65%;
+  --width: 65%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._70 {
-  width: 70%;
+  --width: 70%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._75 {
-  width: 75%;
+  --width: 75%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._80 {
-  width: 80%;
+  --width: 80%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._85 {
-  width: 85%;
+  --width: 85%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._90 {
-  width: 90%;
+  --width: 90%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._95 {
-  width: 95%;
+  --width: 95%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
 .ProgressBar .bar._100 {
-  width: 100%;
+  --width: 100%;
+  animation: test 2s ease-in-out;
+  animation-fill-mode: forwards;
 }
+
+@keyframes test{
+    from{
+         width: 0%;
+    }
+    to{
+        width: var(--width);
+    }
+}
+
 .ProgressBar .bar h5 {
   position: absolute;
   top: 50%;
