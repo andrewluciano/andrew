@@ -719,13 +719,13 @@ p {
 .ProgressBar {
   position: relative;
   width: 100%;
-  border: 1px solid #ed6d0f;
-  background-color: #fff2ea;
+  /* border: 1px solid #ed6d0f; */
+  background-color: #f9e7dc;
   border-radius: 2px;
   height: 5px;
   margin-top: 5px;
   transition: all 0.2s ease-in-out;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1); */
 }
 .ProgressBar .bar {
   position: relative;
@@ -733,6 +733,7 @@ p {
   background-color: #ed6d0f;
   /* transition: all 0.2s ease-in-out; */
   border-radius: 0 2px 2px 0;
+  border-radius:2px;
 
   width: 0%;
 }
