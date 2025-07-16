@@ -851,16 +851,16 @@ p {
 .areaLinks{
   display: flex;
   flex-direction: row;
-    align-items:flex-start;
+  align-items:flex-start;
+  gap:5px
 }
 .areaLinks a{
   display: flex;
   gap:10px;
   justify-content:center;
   align-items:center;
-  font-size:0.85rem;
+  font-size:0.8rem;
   transition: all 0.2s ease-in-out;
-  
 }
 .areaLinks a span{
   display: none;
