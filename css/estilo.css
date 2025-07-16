@@ -861,6 +861,7 @@ p {
   align-items:center;
   font-size:0.8rem;
   transition: all 0.2s ease-in-out;
+  transform:scale(0.8);
 }
 .areaLinks a span{
   display: none;
@@ -869,6 +870,7 @@ p {
   	
   color:#110f10;
 	animation: gradient 15s ease infinite;
+  transform:scale(1);
 
 }
 .areaLinks a svg{
