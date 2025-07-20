@@ -368,7 +368,7 @@ button:focus-visible {
   text-align: left;
   box-sizing: border-box;
   padding: 10px 0px 10px 0px;
-  margin: 20px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
   animation: 200ms ease 0s 1 normal none running k-kjpeXv;
   gap: 20px;
   background-color: #fff2ea;
@@ -577,15 +577,39 @@ p {
   /* transform: translateX(50%); */
   margin: 0px 0px 0px;
   flex-wrap: wrap;
+
+}
+.c-iUYKal:before {
+  position: absolute;
+  top:0px;
+  right:0px;
+  background-image: url('../imagens/perfil-andrew.png');
+  background-repeat: no-repeat;
+  background-position: 55vw center;
+  background-size: cover;
+  width: 100%;
+  height:100%;
+  content:'';
+  filter:grayscale(1)
 }
 @media (max-width: 850px) {
   .c-iUYKal {
     /* transform: translateX(0%); */
-    width: 99vw;
+    width: 100vw;
     height: 100%;
     background-size: cover;
     background-position: center top;
-    padding: 20px 50px 50px 50px;
+    /* padding: 20px 50px 50px 50px; */
+    padding: 0;
+  }
+  .c-iUYKal:before {
+    background-position: 35vw center;
+    width:100% !important;
+    height:100% !important;
+    padding:0;
+  }
+  .imgEu, .euMobile{
+    display:none !important;
   }
 }
 @media (max-width: 500px) {
@@ -593,6 +617,9 @@ p {
     box-sizing: border-box;
     padding: 20px 10px 50px 10px;
     height: auto;
+  }
+  .c-iUYKal:before {
+    display:none !important;
   }
   .c-iUYKal .conteudo {
     padding: 0px;
@@ -614,17 +641,23 @@ p {
   }
 }
 .imgEu {
+  position:relative;
   display: flex;
   align-items: center;
   max-width: 40%;
   width: 40%;
-  
+
+  /* filter: grayscale(1); */
 }
 .imgEu img {
+  display: none;
+  position:relative;
   width: 70%;
   border-radius: 100%;
-  box-shadow:0 10px 3px rgba(0,0,0,0.15)
+  box-shadow:0 10px 3px rgba(0,0,0,0.15);
+  /* box-shadow:inset 0px 0px 10px 10px rgba(0,0,0.1) */
 }
+
 @media (max-width: 500px) {
   .imgEu {
     display: none;
