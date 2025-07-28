@@ -974,7 +974,7 @@ p {
   width: 20%;
   max-width: 250px;
   height: 1px;
-  border-top: 1px dashed #ccc;
+  /* border-top: 1px dashed #ccc; */
   top: 0px;
   left: 50%;
   transform: translateX(-50%);
