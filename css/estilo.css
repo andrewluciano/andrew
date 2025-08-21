@@ -1045,3 +1045,19 @@ p {
   .ui-helper-hidden-accessible{
     display: none;
   }
+
+  .paddingTop35{
+    padding-top:35px !important;
+  }
+
+  @media (max-width: 500px) {
+    .paddingTop35{
+      padding-top:initial !important;
+    }
+  }
+
+@media (max-width: 700px) {
+    .paddingTop35{
+      padding-top:initial !important;
+    }
+  }
