@@ -11,9 +11,9 @@
   width: 100%;
   margin: 0px;
   padding: 0px;
-  min-width: auto;
+  min-width: 100%;
   height: 100%;
-  /* max-width: 1200px; */
+  /* max-width: 1200px; */;
 }
 a {
   transition: all 0.2s ease-in-out;
@@ -46,6 +46,7 @@ section {
   max-width: 1100px;
   width: 100%;
   box-sizing: border-box;
+  margin:auto;
   /* padding: 30px 50px; */
 }
 @media (max-width: 700px) {
@@ -65,8 +66,8 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  border-top: 10px solid #ed6d0f;
-  background:#ed6d0f;
+  border-top: 2px solid #ed6d0f;
+  background:#f8f8f8;
 
   padding:0;
   display:flex;
@@ -162,13 +163,14 @@ button:focus-visible {
   transition: all 0.2s ease-in-out 0s;
   align-items: center;
   flex-direction: column;
-  display: none;
+  /* display: none; */
   justify-content: center;
   width: 100%;
   height: auto;
   text-align: left;
   box-sizing: border-box;
   padding: 10px 0px 10px 0px;
+  padding: 20px;
   margin: 0px 0px 20px 0px;
   animation: 200ms ease 0s 1 normal none running k-kjpeXv;
   gap: 20px;
@@ -314,6 +316,8 @@ h3 {
   flex-direction: row;
   z-index: 99;
   justify-content: space-between;
+  /* border:1px solid #ed6d0f */
+  width:100%;
 }
 .AreaExplicacoesArticles:nth-of-type(2) {
   margin-top: 20px;
@@ -377,11 +381,11 @@ p {
   height: auto;
   text-align: left;
   box-sizing: border-box;
-  padding: 0px 10px 2px 10px;
+  padding: 0px 0px;
   /* transform: translateX(50%); */
   margin: 0px 0px 0px;
   flex-wrap: wrap;
-
+  
 }
 .c-iUYKal:before {
   position: absolute;
@@ -393,7 +397,7 @@ p {
   background-size: cover;
   width: 100%;
   height:100%;
-    display:none !important;
+    /* display:none !important; */
   content:'';
   filter:grayscale(1)
 }
@@ -495,16 +499,16 @@ p {
   position: relative;
   z-index: 9;
   flex: 1;
-  padding: 0px 5vw 0 0;
-  padding:20px 10px;
+  /* padding: 0px 5vw 0 0; */
+  padding:20px 0px;
   max-width: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color:#fff;
-  border-radius:10px;
+  /* background-color:#fff; */
+  /* border-radius:10px; */
   box-shadow:0px 0px 10px rgba(0,0,0,0.15)
 }
 .AreaTexto .euMobile {
@@ -739,7 +743,7 @@ p {
   position: relative;
   box-sizing: border-box;
   padding: 10px 10px 10px;
-  display: none;
+  /* display: none; */
   justify-content: center;
   flex-direction: column;
   text-align: center;
