@@ -55,8 +55,9 @@ section {
   }
 }
 body {
-  background-color: #110f10;
-  background-color: #f8f8f8;
+  /* background-color: #110f10; */
+  /* background-color: #f8f8f8; */
+  background-color: #fff2ea;
   font-family: "Inter", sans-serif;
   margin: 0;
   min-width: 320px;
@@ -67,7 +68,7 @@ body {
   background-size: contain;
   position: relative;
   border-top: 2px solid #ed6d0f;
-  background:#f8f8f8;
+  /* background:#f8f8f8; */
 
   padding:0;
   display:flex;
@@ -163,7 +164,7 @@ button:focus-visible {
   transition: all 0.2s ease-in-out 0s;
   align-items: center;
   flex-direction: column;
-  /* display: none; */
+  display: none;
   justify-content: center;
   width: 100%;
   height: auto;
@@ -385,7 +386,8 @@ p {
   /* transform: translateX(50%); */
   margin: 0px 0px 0px;
   flex-wrap: wrap;
-  
+  background-color: #f8f8f8;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.15)
 }
 .c-iUYKal:before {
   position: absolute;
@@ -420,11 +422,15 @@ p {
   .imgEu, .euMobile{
     display:none !important;
   }
+  .AreaTexto{
+    box-shadow: 0;
+  }
+  
 }
 @media (max-width: 500px) {
   .c-iUYKal {
     box-sizing: border-box;
-    padding: 20px 10px 50px 10px;
+    /* padding: 20px 10px 50px 10px; */
     height: auto;
   }
   .c-iUYKal:before {
@@ -433,6 +439,9 @@ p {
   .c-iUYKal .conteudo {
     padding: 0px;
     flex-direction: column !important;
+  }
+  .AreaTexto{
+    box-shadow: 0;
   }
 }
 @media (max-width: 850px) {
@@ -508,8 +517,8 @@ p {
   align-items: center;
   justify-content: center;
   /* background-color:#fff; */
-  /* border-radius:10px; */
-  box-shadow:0px 0px 10px rgba(0,0,0,0.15)
+  /* border-radius:10px; */  
+
 }
 .AreaTexto .euMobile {
   display: none;
@@ -743,7 +752,7 @@ p {
   position: relative;
   box-sizing: border-box;
   padding: 20px 10px;
-  /* display: none; */
+  display: none;
   justify-content: center;
   flex-direction: column;
   text-align: center;
