@@ -164,7 +164,7 @@ button:focus-visible {
   transition: all 0.2s ease-in-out 0s;
   align-items: center;
   flex-direction: column;
-  display: none;
+  /* display: none; */
   justify-content: center;
   width: 100%;
   height: auto;
@@ -176,6 +176,7 @@ button:focus-visible {
   animation: 200ms ease 0s 1 normal none running k-kjpeXv;
   gap: 20px;
   background-color: #fff2ea;
+  /* box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.4); */
 }
 .AreaExplicacoes h2 {
   margin-bottom: 20px;
