@@ -281,7 +281,7 @@ button:focus-visible {
   margin:0px;
   font-weight: 400;
   font-family: "Geist Mono";
-  letter-spacing: -0.5px;
+  letter-spacing: -0.4px;
 
   font-size:0.8rem;
 }
@@ -329,7 +329,7 @@ h2 {
   transition: all 0.2s ease-in-out 0s;
   font-family: "Inter", sans-serif;
   font-family: "Geist Mono";
-  letter-spacing: -0.5px;
+  letter-spacing: -0.4px;
   color: #ed6d0f;
   color:#333;
 
@@ -338,7 +338,7 @@ h2 {
   margin: 0px 0px 10px 0px;
   padding:0px;
   line-height: initial;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.4px;
   font-size: 1.4rem;
   box-sizing: border-box;
   font-weight: 600;
@@ -348,7 +348,7 @@ h3 {
   transition: all 0.2s ease-in-out 0s;
   font-family: "Inter", sans-serif;
   font-family: "Geist Mono";
-  letter-spacing: -0.5px;
+  letter-spacing: -0.4px;
 
   color: #444;
   z-index: 99;
